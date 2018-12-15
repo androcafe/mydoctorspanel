@@ -1,3 +1,136 @@
 <resources>
-    <string name="app_name">MyDoctorsPanel</string>
+    <string name="app_name">Doctors Panel</string>
+
+    <!-- No Connection -->
+    <string name="string_exit">Exit</string>
+
+    <!--Login Activity -->
+    <string name="string_sign_in">Sign In</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="string_new_account">Don\'t have an account?</string>
+    <string name="string_create_now">Create Now</string>
+
+
+    <!-- Sign Up Activity -->
+    <string name="string_sign_up">Sign Up</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <!--Sign In Activity -->
+    <string name="string_forgot_pw">Forgot Password</string>
+
+    <!-- Profile Activity -->
+    <string name="string_profile_details">Profile Details</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_expertise">Area of Expertise</string>
+    <string name="hint_phone_no">Phone No</string>
+    <string name="hint_bio">Professional biography</string>
+    <string name="hint_edu">Education</string>
+    <string name="hint_certificate">Cerficates</string>
+    <string name="hint_past_exp">Past Experience</string>
+    <string name="hint_btn_save">Save &amp; Next</string>
+    <string name="string_skip">Skip</string>
+
+    <string name="string_specialize">Specialization</string>
+
+    <string name="string_allergy">Allergist/Immmunologist </string>
+    <string name="string_cardio">Cardiologist</string>
+    <string name="string_dermi">Dermatologist</string>
+    <string name="string_dentist">Dentist</string>
+    <string name="string_endo">Endocrinologist</string>
+    <string name="string_gastro">Gastroenterologist</string>
+    <string name="string_gynec">Gynecologist and Obstetericians</string>
+    <string name="string_hema">Hematologist</string>
+    <string name="string_infection">Infectious Disease Specialist</string>
+    <string name="string_nephro">Nephrologist</string>
+    <string name="string_neuro">Neurologist</string>
+    <string name="string_ortho">Orthopedist</string>
+    <string name="string_oto">Otolaryngologist</string>
+    <string name="string_opth">Ophthalmologist</string>
+    <string name="string_phy">Physician</string>
+
+    <string name="string_qualification">Qualification</string>
+
+    <string-array name="array_edu">
+        <item>@string/string_specialize</item>
+        <item>@string/string_allergy</item>
+        <item>@string/string_cardio</item>
+        <item>@string/string_dermi</item>
+        <item>@string/string_dentist</item>
+        <item>@string/string_endo</item>
+        <item>@string/string_gastro</item>
+        <item>@string/string_gynec</item>
+        <item>@string/string_hema</item>
+        <item>@string/string_infection</item>
+        <item>@string/string_nephro</item>
+        <item>@string/string_neuro</item>
+        <item>@string/string_ortho</item>
+        <item>@string/string_oto</item>
+        <item>@string/string_opth</item>
+        <item>@string/string_phy</item>
+    </string-array>
+
+
+    <string name="string_bachelor">Bachelor</string>
+    <string name="string_master">Master</string>
+    <string name="string_phd">Phd</string>
+
+    <!--Home Activity-->
+    <string name="home_action_home">Home</string>
+    <string name="home_action_aptm">Appointment</string>
+    <string name="home_action_profile">Profile</string>
+    <string name="string_logout">Log Out</string>
+
+
+    <!-- Home_fragment -->
+    <string name="string_cancel_apmt">Cancel \nAppointment</string>
+    <string name="string_change_scedule">Change \nSchedule</string>
+    <string name="string_today_scedule">Today\'s \nSchedule</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Appointment</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!-- Apmt Status Fragemnet -->
+    <string name="string_booked">Booked</string>
+    <string name="string_canceled">Canceled</string>
+    <string name="string_completed">Completed</string>
+
+
+    <string-array name="array_apmt">
+        <item>@string/string_booked</item>
+        <item>@string/string_canceled</item>
+        <item>@string/string_completed</item>
+    </string-array>
+
+
+    <!-- Fragment Change Schedule -->
+    <string name="string_m">M</string>
+    <string name="string_t">T</string>
+    <string name="string_w">W</string>
+    <string name="string_f">F</string>
+    <string name="string_s">S</string>
+
+    <string name="btn_save">Save</string>
+
+    <!-- Schedule Time -->
+    <string name="morning">Morning</string>
+    <string name="evening">Evening</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="str_avail">Yes</string>
+    <string name="str_unavail">No</string>
+
+    <!-- Cancel Appointment -->
+    <string name="btn_cancel_apmt">Cancel Appointment</string>
+
+    <!--Today's Appointment-->
+    <string name="string_no_apmt">There is no appointment for today</string>
+
+    <!--Patient Profile-->
+    <string name="string_personal_detail">Personal Details</string>
+    <string name="string_medical_history">Medical History</string>
+    <string name="string_submit">Submit</string>
+
 </resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/profile_bg">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/string_skip"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:id="@+id/tv_skip"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:background="@drawable/profile_img"
+                    android:src="@raw/doctor"
+                    android:id="@+id/iv_doc_profile"/>
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fb_change_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@raw/edit"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginLeft="30dp"/>
+
+            </FrameLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:text="@string/string_profile_details"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_tv_bg"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_name"
+                    android:textSize="17sp"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:padding="10dp"
+                    android:gravity="right"
+                    android:background="@drawable/profile_tv_bg"
+                    android:textColor="@color/colorLogincreenBg"
+                    android:inputType = "textCapSentences"
+                    android:id="@+id/edt_name"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_tv_bg"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:padding="10dp"
+                    android:hint="@string/hint_address"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:padding="10dp"
+                    android:gravity="right"
+                    android:background="@drawable/profile_tv_bg"
+                    android:textColor="@color/colorLogincreenBg"
+                    android:inputType = "textCapSentences"
+                    android:id="@+id/edt_address"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_tv_bg"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:padding="10dp"
+                    android:hint="@string/hint_phone_no"
+                    android:textColor="@color/colorText"
+                    android:singleLine="true"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:padding="10dp"
+                    android:gravity="right"
+                    android:background="@drawable/profile_tv_bg"
+                    android:textColor="@color/colorLogincreenBg"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:maxLength="10"
+                    android:windowSoftInputMode="adjustResize"
+                    android:id="@+id/edt_phone_no"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_save"
+                    android:text="@string/hint_btn_save"
+                    android:background="@drawable/login_btn_bg"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>

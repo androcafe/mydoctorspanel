@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/login_bg_kitkat"
+        android:id="@+id/layout_sign_in">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageview_hospital"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@raw/hospital" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="@string/string_sign_in"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/sign_in_bg"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:id="@+id/layout_sign_in2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_edt_bg"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:drawableLeft="@raw/email"
+                android:drawablePadding="10dp"
+                android:hint="@string/hint_email"
+                android:nextFocusDown="@id/edt_password"
+                android:singleLine="true"
+                android:id="@+id/edt_email"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/login_edt_bg"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:drawableLeft="@raw/lock"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="@string/hint_password"
+                android:nextFocusDown="@id/btn_sign_in"
+                android:id="@+id/edt_password"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:text="@string/string_forgot_pw"
+                android:id="@+id/tv_forgot_pw"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/login_btn_bg"
+                android:text="@string/string_sign_in"
+                android:elevation="10dp"
+                android:id="@+id/btn_sign_in"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textColor="#b3b0b0"
+                    android:text="@string/string_new_account"
+                    android:id="@+id/tv_new_account"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#4e4c4c"
+                    android:text="@string/string_create_now"
+                    android:clickable="true"
+                    android:id="@+id/tv_create_now"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

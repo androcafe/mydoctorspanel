@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#24a4fa</color>
+    <color name="colorPrimaryDark">#24a4fa</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- no connection -->
+    <color name="colorExit">#900</color>
+
+    <!-- login activity -->
+    <color name="colorLogincreenBg">#24a4fa</color>
+
+    <!--profile activity-->
+    <color name="colorText">#9a9ea1</color>
+
+    <color name="colorBlack">#131313</color>
+    <color name="colorDarkGray">#696969</color>
+    <color name="colorLightGray">#E5E5E5</color>
+    <color name="colorMedGray">#969696</color>
+
+    <color name="colorDarkBlue">#4B66EA</color>
+    <color name="colorLightBlue">#82A0F6</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorSkyBlue">#2cceff</color>
+
 </resources>
