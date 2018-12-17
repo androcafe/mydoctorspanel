@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.fragment.ChangeSchedFragment;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.fragment.ChangeSchedFragment;
 
 public class ChangeScheduleActivity extends AppCompatActivity {
 

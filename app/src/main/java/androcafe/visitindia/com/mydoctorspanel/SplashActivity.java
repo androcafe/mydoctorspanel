@@ -10,14 +10,9 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-
 import androcafe.visitindia.com.mydoctorspanel.connection.ConnectionDetector;
 import androcafe.visitindia.com.mydoctorspanel.connection.NoConnection;
-import visitindia.androcafe.doctorspanel.connection.ConnectionDetector;
-import visitindia.androcafe.doctorspanel.connection.NoConnection;
-
 import static androcafe.visitindia.com.mydoctorspanel.SignInActivity.EMAIL;
-import static visitindia.androcafe.doctorspanel.SignInActivity.EMAIL;
 
 public class SplashActivity extends AppCompatActivity {
 

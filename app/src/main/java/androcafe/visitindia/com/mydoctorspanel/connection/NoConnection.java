@@ -4,8 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-
-import visitindia.androcafe.doctorspanel.R;
+;import androcafe.visitindia.com.mydoctorspanel.R;
 
 public class NoConnection extends AppCompatActivity {
 

@@ -10,10 +10,10 @@ import android.widget.FrameLayout;
 
 import java.util.List;
 
-import visitindia.androcafe.doctorspanel.profilefragment.BasicInfoFragment;
-import visitindia.androcafe.doctorspanel.profilefragment.BiographyFragment;
-import visitindia.androcafe.doctorspanel.profilefragment.CertificateFragment;
-import visitindia.androcafe.doctorspanel.profilefragment.EducationFragment;
+import androcafe.visitindia.com.mydoctorspanel.profilefragment.BasicInfoFragment;
+import androcafe.visitindia.com.mydoctorspanel.profilefragment.BiographyFragment;
+import androcafe.visitindia.com.mydoctorspanel.profilefragment.CertificateFragment;
+import androcafe.visitindia.com.mydoctorspanel.profilefragment.EducationFragment;
 
 public class ProfileActivity extends AppCompatActivity {
 

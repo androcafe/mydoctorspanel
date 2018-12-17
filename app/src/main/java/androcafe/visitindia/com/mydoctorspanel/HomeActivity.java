@@ -8,8 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
-import visitindia.androcafe.doctorspanel.fragment.AppointmentStatusFragment;
-import visitindia.androcafe.doctorspanel.fragment.HomeFragment;
+import androcafe.visitindia.com.mydoctorspanel.fragment.AppointmentStatusFragment;
+import androcafe.visitindia.com.mydoctorspanel.fragment.HomeFragment;
 
 public class HomeActivity extends AppCompatActivity {
 

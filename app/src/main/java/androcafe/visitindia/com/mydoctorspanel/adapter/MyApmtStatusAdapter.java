@@ -12,9 +12,10 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.model.ApmtStatus;
-import visitindia.androcafe.doctorspanel.patientprofile.PatientProfileActivity;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.model.ApmtStatus;
+import androcafe.visitindia.com.mydoctorspanel.patientprofile.PatientProfileActivity;
+
 
 public class MyApmtStatusAdapter extends BaseAdapter {
 

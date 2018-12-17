@@ -4,8 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.model.CancelApmt;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.model.CancelApmt;
+
 
 public class CancelApmtActivity extends AppCompatActivity {
 

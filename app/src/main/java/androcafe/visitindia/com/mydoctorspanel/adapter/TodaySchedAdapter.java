@@ -10,8 +10,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.model.TodaysShedule;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.model.TodaysShedule;
 
 public class TodaySchedAdapter extends BaseAdapter {
 

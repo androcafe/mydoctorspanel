@@ -23,10 +23,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import visitindia.androcafe.doctorspanel.DoctorPanelUrl;
-import visitindia.androcafe.doctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.DoctorPanelUrl;
+import androcafe.visitindia.com.mydoctorspanel.R;
 
-public class PatientProfileHomepgFragment extends Fragment implements DoctorPanelUrl{
+public class PatientProfileHomepgFragment extends Fragment implements DoctorPanelUrl {
 
     //Declare all widgets and UI components
     FloatingActionButton fbPhoneCall,fbSMS;

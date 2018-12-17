@@ -13,10 +13,11 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.cancelappoint.CancelApmtActivity;
-import visitindia.androcafe.doctorspanel.changesched.ChangeScheduleActivity;
-import visitindia.androcafe.doctorspanel.model.Home;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.cancelappoint.CancelApmtActivity;
+import androcafe.visitindia.com.mydoctorspanel.changesched.ChangeScheduleActivity;
+import androcafe.visitindia.com.mydoctorspanel.model.Home;
+
 
 public class HomeGridAdapter extends BaseAdapter {
     Context context;

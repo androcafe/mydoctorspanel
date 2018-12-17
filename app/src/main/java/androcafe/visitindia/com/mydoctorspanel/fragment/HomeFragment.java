@@ -19,13 +19,13 @@ import android.widget.LinearLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-import visitindia.androcafe.doctorspanel.HomeActivity;
-import visitindia.androcafe.doctorspanel.LoginActivity;
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.SignInActivity;
-import visitindia.androcafe.doctorspanel.changesched.ChangeScheduleActivity;
-import visitindia.androcafe.doctorspanel.model.Home;
-import visitindia.androcafe.doctorspanel.todayshedule.TodaysScheduleActivity;
+import androcafe.visitindia.com.mydoctorspanel.HomeActivity;
+import androcafe.visitindia.com.mydoctorspanel.LoginActivity;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.SignInActivity;
+import androcafe.visitindia.com.mydoctorspanel.changesched.ChangeScheduleActivity;
+import androcafe.visitindia.com.mydoctorspanel.model.Home;
+import androcafe.visitindia.com.mydoctorspanel.todayshedule.TodaysScheduleActivity;
 
 public class HomeFragment extends Fragment {
 

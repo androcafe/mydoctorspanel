@@ -25,16 +25,16 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import visitindia.androcafe.doctorspanel.DoctorPanelUrl;
-import visitindia.androcafe.doctorspanel.HomeActivity;
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.SignInActivity;
-import visitindia.androcafe.doctorspanel.adapter.MyApmtStatusAdapter;
-import visitindia.androcafe.doctorspanel.model.ApmtStatus;
+import androcafe.visitindia.com.mydoctorspanel.DoctorPanelUrl;
+import androcafe.visitindia.com.mydoctorspanel.HomeActivity;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.SignInActivity;
+import androcafe.visitindia.com.mydoctorspanel.adapter.MyApmtStatusAdapter;
+import androcafe.visitindia.com.mydoctorspanel.model.ApmtStatus;
 
 import static android.content.Context.MODE_PRIVATE;
 
-public class AppointmentStatusFragment extends Fragment implements DoctorPanelUrl{
+public class AppointmentStatusFragment extends Fragment implements DoctorPanelUrl {
 
 
     //Listview in ApmtStatusFragment

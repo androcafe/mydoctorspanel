@@ -32,13 +32,12 @@ import android.widget.TextView;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import de.hdodenhof.circleimageview.CircleImageView;
-import visitindia.androcafe.doctorspanel.HomeActivity;
-import visitindia.androcafe.doctorspanel.OnBackPressed;
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.SignInActivity;
+import androcafe.visitindia.com.mydoctorspanel.HomeActivity;
+import androcafe.visitindia.com.mydoctorspanel.OnBackPressed;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.SignInActivity;
 
-public class BasicInfoFragment extends Fragment implements OnBackPressed{
+public class BasicInfoFragment extends Fragment implements OnBackPressed {
 
     EditText edt_name,edt_address,edt_phone_no;
     Button btn_save;
