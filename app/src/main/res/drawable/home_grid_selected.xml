@@ -8,15 +8,11 @@
         android:top="10dp"
         android:bottom="10dp"/>
 
-
-
     <gradient
-        android:startColor="#24a4fa"
-        android:centerColor="#2cceff"
-        android:endColor="#8fe0f9"
+        android:startColor="#19877b"
+        android:centerColor="#28b9a8"
+        android:endColor="#2fe7d2"
         android:angle="135"/>
-
-
 
 </shape>
 

@@ -126,18 +126,22 @@ public class SignUpActivity extends AppCompatActivity implements DoctorPanelUrl{
                 }
                 else
                 {
-                    Toast.makeText(SignUpActivity.this,"Please enter valid password", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(SignUpActivity.this,"Please enter valid password", Toast.LENGTH_SHORT).show();
+                    editTextPassword.setError("Please enter valid password");
+                    editTextConfirmPw.setError("Please enter valid password");
                 }
             }
             else
             {
-                Toast.makeText(SignUpActivity.this,"Please enter valid emailId", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(SignUpActivity.this,"Please enter valid emailId", Toast.LENGTH_SHORT).show();
+                editTextEmail.setError("Please enter valid emailId");
             }
 
         }
         else
         {
-            Toast.makeText(SignUpActivity.this,"Please enter valid emailId", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(SignUpActivity.this,"Please enter valid emailId", Toast.LENGTH_SHORT).show();
+            editTextEmail.setError("Please enter valid emailId");
         }
 
     }

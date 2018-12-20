@@ -1,11 +1,14 @@
 package androcafe.visitindia.com.mydoctorspanel.patientprofile;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.widget.FrameLayout;
 
-import visitindia.androcafe.doctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.R;
+
 
 public class PatientProfileActivity extends AppCompatActivity {
     //Declare all widgets and UI components
@@ -17,6 +20,10 @@ public class PatientProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_profile);
+
+        getSupportActionBar().setTitle(getResources().getString(R.string.string_patient_profile));
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //Initialize all Ui component
         frameLayout=findViewById(R.id.framelayout_patient_profile);
@@ -38,4 +45,6 @@ public class PatientProfileActivity extends AppCompatActivity {
                     .commit();
         }
     }
+
+
 }

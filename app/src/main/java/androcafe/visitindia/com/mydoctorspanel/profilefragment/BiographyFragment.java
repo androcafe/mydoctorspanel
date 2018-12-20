@@ -29,11 +29,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import visitindia.androcafe.doctorspanel.DoctorPanelUrl;
-import visitindia.androcafe.doctorspanel.HomeActivity;
-import visitindia.androcafe.doctorspanel.OnBackPressed;
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.SignInActivity;
+import androcafe.visitindia.com.mydoctorspanel.DoctorPanelUrl;
+import androcafe.visitindia.com.mydoctorspanel.HomeActivity;
+import androcafe.visitindia.com.mydoctorspanel.OnBackPressed;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.SignInActivity;
+
 
 public class BiographyFragment extends Fragment implements OnBackPressed,DoctorPanelUrl {
 

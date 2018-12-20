@@ -2,57 +2,58 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     android:elevation="10dp"
+    android:background="#2fe7d2"
     android:id="@+id/rl_apmt_status">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:layout_marginBottom="1dp"
+        android:background="#2e557c">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17sp"
-                android:drawableLeft="@raw/user"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/guest"
+                android:drawablePadding="5dp"
                 android:id="@+id/tv_patient_name"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17sp"
-                android:id="@+id/tv_patient_age"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="17sp"
-                android:drawableLeft="@raw/date"
+                android:drawablePadding="5dp"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/today"
                 android:id="@+id/tv_apmt_date"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17sp"
-                android:drawableLeft="@raw/time"
+                android:drawablePadding="5dp"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/time"
                 android:id="@+id/tv_apmt_time"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17sp"
-                android:drawableLeft="@raw/firstaid"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/firstaid"
+                android:textColor="@android:color/white"
                 android:id="@+id/tv_patient_medical_alignment"/>
-
-
         </LinearLayout>
     </LinearLayout>
-
 </RelativeLayout>

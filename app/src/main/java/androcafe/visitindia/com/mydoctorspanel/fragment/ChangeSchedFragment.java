@@ -9,7 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import visitindia.androcafe.doctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.R;
+
 
 public class ChangeSchedFragment extends Fragment {
 

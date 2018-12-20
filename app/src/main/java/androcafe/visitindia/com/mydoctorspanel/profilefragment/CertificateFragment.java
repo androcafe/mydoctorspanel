@@ -16,9 +16,10 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import visitindia.androcafe.doctorspanel.OnBackPressed;
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.SignInActivity;
+import androcafe.visitindia.com.mydoctorspanel.OnBackPressed;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.SignInActivity;
+
 
 public class CertificateFragment extends Fragment implements OnBackPressed {
 

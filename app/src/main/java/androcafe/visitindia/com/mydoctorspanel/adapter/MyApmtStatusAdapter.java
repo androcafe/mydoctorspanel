@@ -55,7 +55,6 @@ public class MyApmtStatusAdapter extends BaseAdapter {
 
         RelativeLayout rlApmtStatus=view.findViewById(R.id.rl_apmt_status);
         TextView tvName=view.findViewById(R.id.tv_patient_name);
-        TextView tvAge=view.findViewById(R.id.tv_patient_age);
         TextView tvDate=view.findViewById(R.id.tv_apmt_date);
         TextView tvTime=view.findViewById(R.id.tv_apmt_time);
         TextView tvMedicalAlignment=view.findViewById(R.id.tv_patient_medical_alignment);
@@ -68,11 +67,10 @@ public class MyApmtStatusAdapter extends BaseAdapter {
             }
         });
 
-        tvName.setText("Patient Name : "+list.get(i).getName());
-        tvAge.setText("Age : "+list.get(i).getAge());
-        tvDate.setText("Appointment Date : "+list.get(i).getDate_of_apmt());
-        tvTime.setText("Appointment Time : "+list.get(i).getTime());
-        tvMedicalAlignment.setText("Medical Alignment : "+list.get(i).getTreatment());
+        tvName.setText(""+list.get(i).getName());
+        tvDate.setText(""+list.get(i).getDate_of_apmt());
+        tvTime.setText(""+list.get(i).getTime());
+        tvMedicalAlignment.setText(""+list.get(i).getTreatment());
 
         return view;
     }

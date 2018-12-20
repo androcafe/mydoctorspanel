@@ -12,11 +12,10 @@ public class ApmtStatus {
     String treatment;
     String doctor_id;
 
-    public ApmtStatus(int id, int pid, String name, String age, String sex, String date_of_apmt, String time, String created_at, String treatment, String doctor_id) {
+    public ApmtStatus(int id, int pid, String name,String sex, String date_of_apmt, String time, String created_at, String treatment, String doctor_id) {
         this.id = id;
         this.pid = pid;
         this.name = name;
-        this.age = age;
         this.sex = sex;
         this.date_of_apmt = date_of_apmt;
         this.time = time;

@@ -119,6 +119,8 @@ public class SignInActivity extends AppCompatActivity implements DoctorPanelUrl{
 
                 if(flag==0)
                 {
+                    email=email.trim();
+                    password=password.trim();
                     if(isNetworkAvailable())
                     {
                         showProgressBar();

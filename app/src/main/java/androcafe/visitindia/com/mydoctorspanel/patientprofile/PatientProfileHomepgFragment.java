@@ -10,6 +10,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -25,11 +27,14 @@ import org.json.JSONObject;
 
 import androcafe.visitindia.com.mydoctorspanel.DoctorPanelUrl;
 import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.chat.ChatActivity;
 
 public class PatientProfileHomepgFragment extends Fragment implements DoctorPanelUrl {
 
     //Declare all widgets and UI components
-    FloatingActionButton fbPhoneCall,fbSMS;
+    ImageButton fbPhoneCall,fbSMS;
+
+    Button btnPatientProfile,btnPatientHistory;
 
     public static PatientProfileHomepgFragment newInstance() {
 
@@ -52,6 +57,9 @@ public class PatientProfileHomepgFragment extends Fragment implements DoctorPane
         fbPhoneCall=view.findViewById(R.id.fb_call);
         fbSMS=view.findViewById(R.id.fb_sms);
 
+        btnPatientProfile=view.findViewById(R.id.btn_profile);
+        btnPatientHistory=view.findViewById(R.id.btn_patient_history);
+
         //onClickListener to phone floating buttong
         fbPhoneCall.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +69,16 @@ public class PatientProfileHomepgFragment extends Fragment implements DoctorPane
                 Intent intentCall=new Intent(Intent.ACTION_DIAL);
                 intentCall.setData(Uri.parse("tel:9922004455"));
                 startActivity(intentCall);
+            }
+        });
+
+        //send sms to patient
+        fbSMS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentSms=new Intent(getActivity(), ChatActivity.class);
+                startActivity(intentSms);
+                getActivity().finish();
             }
         });
         return view;

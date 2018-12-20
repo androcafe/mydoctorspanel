@@ -18,12 +18,12 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androcafe.visitindia.com.mydoctorspanel.OnBackPressed;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.SignInActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
-import visitindia.androcafe.doctorspanel.OnBackPressed;
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.SignInActivity;
 
-public class EducationFragment extends Fragment implements OnBackPressed{
+public class EducationFragment extends Fragment implements OnBackPressed {
 
     Spinner spinnerEdu;
     CheckBox cbBachelor,chMaster,chPhd;

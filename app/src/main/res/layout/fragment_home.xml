@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginTop="10dp"
-        >
+        android:layout_marginTop="10dp">
 
 
             <LinearLayout
@@ -48,8 +47,7 @@
                 android:background="@drawable/home_grid_unselected"
                 android:layout_margin="10dp"
                 android:orientation="vertical"
-                android:id="@+id/ll_change_apmt"
-               >
+                android:id="@+id/ll_change_apmt">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -68,8 +66,7 @@
 
             </LinearLayout>
 
-
-        </LinearLayout>
+    </LinearLayout>
 
 
     <LinearLayout
@@ -85,8 +82,7 @@
             android:background="@drawable/home_grid_selected"
             android:layout_margin="10dp"
             android:orientation="vertical"
-            android:id="@+id/ll_today_apmt"
-         >
+            android:id="@+id/ll_today_apmt">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -108,8 +104,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_margin="10dp"
-            android:orientation="vertical"
-           >
+            android:orientation="vertical">
 
         </LinearLayout>
         </LinearLayout>

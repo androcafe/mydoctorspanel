@@ -123,7 +123,6 @@ public class HomeFragment extends Fragment {
 
                 SharedPreferences.Editor editor=sharedPreferences.edit();
                 editor.putString(SignInActivity.EMAIL,"");
-
                 editor.commit();
 
                 Intent intentLogin=new Intent(getActivity(), LoginActivity.class);

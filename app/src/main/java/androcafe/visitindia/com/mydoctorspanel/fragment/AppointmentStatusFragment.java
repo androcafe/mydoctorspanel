@@ -76,7 +76,9 @@ public class AppointmentStatusFragment extends Fragment implements DoctorPanelUr
 
         // Set title bar
         ((HomeActivity) getActivity())
-                .setActionBarTitle("Appointment Status");
+                .setActionBarTitle("Appointments");
+
+
 
         finViewByIds(view);
 
@@ -104,6 +106,12 @@ public class AppointmentStatusFragment extends Fragment implements DoctorPanelUr
 
                     JSONArray jsonArray=response.getJSONArray("appointment");
 
+                    apmtStatus=new ApmtStatus(100,101,"namrata","Female","2018/12/12","5.30A.M","5.30A.M","XYZ","d102");
+                    listApmt.add(apmtStatus);
+
+                    apmtStatus=new ApmtStatus(100,102,"shilpa","Female","2018/13/12","5.30A.M","5.30A.M","XYZ","d102");
+                    listApmt.add(apmtStatus);
+
                     for(int i=0;i<jsonArray.length();i++) {
                         JSONObject jsonObject = jsonArray.getJSONObject(i);
 
@@ -122,7 +130,7 @@ public class AppointmentStatusFragment extends Fragment implements DoctorPanelUr
 
                         if(doc_id.equals(doctor_id))
                         {
-                            apmtStatus=new ApmtStatus(id,pid,name,age,sex,date_of_appointment,time,created_at,treatment,doc_id);
+                            apmtStatus=new ApmtStatus(id,pid,name,sex,date_of_appointment,time,created_at,treatment,doc_id);
                             listApmt.add(apmtStatus);
                         }
                     }

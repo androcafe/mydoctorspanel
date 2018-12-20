@@ -36,6 +36,7 @@ import androcafe.visitindia.com.mydoctorspanel.HomeActivity;
 import androcafe.visitindia.com.mydoctorspanel.OnBackPressed;
 import androcafe.visitindia.com.mydoctorspanel.R;
 import androcafe.visitindia.com.mydoctorspanel.SignInActivity;
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class BasicInfoFragment extends Fragment implements OnBackPressed {
 

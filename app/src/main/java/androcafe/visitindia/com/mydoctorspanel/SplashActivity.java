@@ -60,8 +60,17 @@ public class SplashActivity extends AppCompatActivity {
 
                             if(sharedPreferencesDoc.contains(EMAIL))
                             {
-                                startActivity(new Intent(SplashActivity.this, HomeActivity.class));
-                                finish();
+                                if(sharedPreferencesDoc.getString(EMAIL,null).equals(""))
+                                {
+                                    startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                                    finish();
+                                }
+                                else
+                                {
+                                    startActivity(new Intent(SplashActivity.this, HomeActivity.class));
+                                    finish();
+                                }
+
                             }
                             else
                             {

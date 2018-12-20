@@ -132,5 +132,13 @@
     <string name="string_personal_detail">Personal Details</string>
     <string name="string_medical_history">Medical History</string>
     <string name="string_submit">Submit</string>
+    <string name="string_patient_profile">Patient Profile</string>
+    <string name="string_age">Age</string>
+    <string name="string_gender">Gender</string>
+
+
+    <!--Chat -->
+    <string name="string_sms">SMS</string>
+    <string name="string_chat">Chat</string>
 
 </resources>

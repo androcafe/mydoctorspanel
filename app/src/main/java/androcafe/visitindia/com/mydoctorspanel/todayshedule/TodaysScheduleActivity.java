@@ -24,13 +24,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import visitindia.androcafe.doctorspanel.DoctorPanelUrl;
-import visitindia.androcafe.doctorspanel.HomeActivity;
-import visitindia.androcafe.doctorspanel.R;
-import visitindia.androcafe.doctorspanel.adapter.TodaySchedAdapter;
-import visitindia.androcafe.doctorspanel.model.TodaysShedule;
+import androcafe.visitindia.com.mydoctorspanel.DoctorPanelUrl;
+import androcafe.visitindia.com.mydoctorspanel.HomeActivity;
+import androcafe.visitindia.com.mydoctorspanel.R;
+import androcafe.visitindia.com.mydoctorspanel.adapter.TodaySchedAdapter;
+import androcafe.visitindia.com.mydoctorspanel.model.TodaysShedule;
 
-public class TodaysScheduleActivity extends AppCompatActivity implements DoctorPanelUrl{
+public class TodaysScheduleActivity extends AppCompatActivity implements DoctorPanelUrl {
 
     //Listview to view all todays appointment
     ListView lv_todays_apmt;
