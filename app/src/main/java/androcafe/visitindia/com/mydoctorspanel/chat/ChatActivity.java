@@ -1,7 +1,11 @@
 package androcafe.visitindia.com.mydoctorspanel.chat;
 
+import android.content.ComponentName;
 import android.content.Intent;
+import android.content.ServiceConnection;
+import android.os.Binder;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +15,7 @@ import android.widget.FrameLayout;
 
 import androcafe.visitindia.com.mydoctorspanel.R;
 import androcafe.visitindia.com.mydoctorspanel.patientprofile.PatientProfileActivity;
+import androcafe.visitindia.com.mydoctorspanel.services.ChatService;
 
 
 public class ChatActivity extends AppCompatActivity {
@@ -25,6 +30,10 @@ public class ChatActivity extends AppCompatActivity {
 
     //inserted msg stored into static variable
     public static String inserted_msg="";
+
+    //Chat Service
+    ChatService chatBoundService;
+    boolean chatServiceBound = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,4 +87,23 @@ public class ChatActivity extends AppCompatActivity {
         finish();
         startActivity(intent);
     }
+
+
+    private ServiceConnection mServiceConnection = new ServiceConnection() {
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+            chatServiceBound = false;
+        }
+
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            ChatService.MyBinder myBinder = (ChatService.MyBinder) service;
+            chatBoundService = myBinder.getService();
+            chatServiceBound = true;
+        }
+    };
+
+
+
 }

@@ -62,6 +62,7 @@
         <activity android:name=".patientprofile.PatientProfileActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".chat.ChatActivity"></activity>
+        <service android:name=".services.ChatService"/>
     </application>
 
 </manifest>
